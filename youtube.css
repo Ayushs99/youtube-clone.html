@@ -1,0 +1,306 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto","Arial",sans-serif;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: black;
+}
+
+.logo-menu{
+    display: flex;
+}
+.search-menu{
+    display: flex;
+}
+
+.user-menu{
+    display: flex;
+}
+
+#menu{
+    font-size: 30px;
+    margin-top: -1px;
+    height: 40px;
+}
+
+img{
+    height: 40px;
+    margin-top: -5px;
+}
+.search-bar{
+    height: 40px;
+}
+
+#search-bar{
+    width: 437px;
+    margin-top:3px ;
+    border-radius:10px;
+    padding: 4px;
+    background-color:transparent;
+    box-shadow: none;
+    color: white;
+    height: 18px;
+    border: 1px solid rgb(52, 48, 48);
+}
+
+i{
+    margin: 8px;
+    height: 20px;
+    margin-top:6px;
+    position: relative;
+    z-index: 99;
+}
+
+#dot:hover{
+    background-color: rgb(120, 123, 125);
+    border-radius: 10px;
+
+}
+#Search{
+    background-color: rgb(57, 54, 54) ;
+    border-radius: 50px;
+    height: 28px;
+    width: 30px;
+    margin-top: 4px;
+    margin-left:5px ;
+}
+
+#mic{
+    background-color:  rgb(57, 54, 54) ;
+    height: 28px;
+    width: 30px;
+    border-radius: 50px;
+    margin-top:4px ;
+    margin-left:5px ;
+}
+
+.col-2{
+    padding-left: 4px;
+}
+.col-1{
+    font-size: 25px;
+}
+.video-icon , .alert, .user{
+    font-size:20px;
+}
+
+.left-menu-bar{
+    height: 100vh;
+    width: 40px;
+    background-color: black;
+    position: fixed;
+}
+
+.home{
+    margin-left:4px ;
+}
+
+.sub-icon{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.you{
+    height: 40px;
+}
+.you-icon{
+    margin-top: 1px;
+    margin-left: 7px;
+}
+
+.home:hover , .shorts:hover , .subscription:hover , .you:hover{
+    background-color: rgb(86, 46, 46);
+    border-radius: 5px;
+    transition: ease-in-out .51s;
+    transform: scale(1.1);
+}
+
+.container-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    left: 50px;
+    top: 40px;
+    background-color: black;
+}
+
+.container-2>div{
+    border: 1px transparent;
+    border-radius:9px ;
+    padding: 4px;
+    font-size: 14px;
+    height: 17px;
+    background-color: rgb(52, 48, 48);
+}
+
+.container-2>div:hover{
+    background-color: rgb(114, 110, 110);
+    transition: ease-in-out .5s;
+}
+
+.nav-2{
+    margin-top: 1px;
+    font-weight:700;
+}
+.button-1{
+    background-color: transparent;
+    border: none;
+    margin-right:80px ;
+}
+
+.video-container{
+    display: flex;
+    gap: 10px 10px;
+    padding-top:100px ;
+    padding-left: 65px;
+    flex-wrap:wrap ;
+    justify-content: flex-start;
+    background-color: black;
+}
+#Search:hover,#mic:hover{
+    background-color: rgb(99, 102, 104);
+}
+.video-icon:hover,.alert:hover,.user:hover{
+    background-color: rgb(59, 61, 62);
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 1px;
+}
+.card-1{
+    height: 220px;
+    width: 280px;
+    background-color: transparent;
+    border-radius:10px ;
+}
+
+#no-show-link{
+    text-decoration: none;
+    color: white;
+}
+
+ .video-container > #card-big:hover{
+    background-color: rgb(66, 33, 33);
+    transform: scale(1.04);
+    transition: ease-in-out 1s;
+    border-radius: 20px;
+    box-shadow: 0 0 50px white;
+}
+#img-1{
+    height: 145px;
+    width: 285px;
+    border-radius: 10px;
+    
+}
+
+#card-1-inside{
+    border-radius: 40px;
+    margin-top: 1px;
+    height: 30px;
+    width: 33px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 41px 234px;
+    grid-template-rows: 36px 35px;
+}
+
+.shorts-container{
+    width: 85vw;
+    height: 380px;
+    display: flex;
+    gap: 10px;
+    padding-left: 55px;
+    overflow-x:scroll ;
+    scrollbar-width: none;
+}
+
+.shorts-container-1{
+    height: 380px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.shorts-container-1:hover,.shorts-container-2:hover,.shorts-container-3:hover,.shorts-container-4:hover,.shorts-container-5:hover{
+    transform: scale(1.03) ;
+    transition: ease-in-out 1s;
+    box-shadow: 0 0 20px white;
+    background-color: rgb(37, 39, 40);
+    border-radius: 10px;
+}
+
+.shorts-image{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.shorts-grid{
+    display: grid;
+    grid-template-columns: 150px 50px;
+    grid-template-rows: 30px 30px;
+}
+
+#svg-threedot{
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.youtube-shorts{
+    padding-left: 45px;
+}
+
+.news{
+    padding-left: 50px;
+}
+
+#news-text-1{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#news-text-2{
+    font-size: 12px;
+    color: #AAAAAA;
+    margin-top: -10px;
+}
+
+.news-nav{
+    height: 220px;
+    width: fit-content;
+    padding-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    padding-top:20px ;
+}
+
+.news-card-1:hover,.news-card-2:hover,.news-card-3:hover,.news-card-4:hover{
+    transform: scale(1.03) ;
+    transition: ease-in-out 1s;
+    box-shadow: 0 0 20px white;
+    background-color: rgb(75, 63, 63);
+    border-radius: 10px;
+}
+
+.news-card-1{
+    height: 217px;
+    width: 285px;
+    border-radius: 10px;
+}
+
+#svg-threedot{
+    padding-left: 10px;
+}
