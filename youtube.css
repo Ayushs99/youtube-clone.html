@@ -304,3 +304,22 @@ i{
 #svg-threedot{
     padding-left: 10px;
 }
+
+@media (max-width:480px){
+    .container-2{
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
+    .container-2>div{
+        margin: 10px;
+    }
+    .search-bar{
+        width: 180px;
+    }
+    .video-icon,.alert,.user{
+        display: none;
+    }
+    .video-container{
+        justify-content: center;
+    }
+}
