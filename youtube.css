@@ -139,7 +139,8 @@ i{
 .container-2>div{
     border: 1px transparent;
     border-radius:9px ;
-    padding: 4px;
+     width: auto;
+    padding: 7px;
     font-size: 14px;
     height: 17px;
     background-color: rgb(52, 48, 48);
